@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-11-08",
+  "verification_status": "PASS",
+  "suite_version": "1.2.0",
+  "platform_version": "1.1.0",
+  "private_release_commit": "ae286b7f44a8e9de48f11a48b21bf454ef8cc39a",
+  "private_release_tag": "v1.2.0",
+  "python_version": "3.14.0",
+  "canonical_command": "python3 verify_release.py",
+  "canonical_result": "AXIOM_SUITE_CHECK=PASS suite_version=1.2.0 platform_version=1.1.0 manifest_files=32 platform_tests=406 skills=5 plugin=PASS migrations=5",
+  "counts": {
+    "platform_tests": 406,
+    "governance_skills": 5,
+    "gpt_to_skills_migrations": 5,
+    "emblematic_profiles": 4,
+    "emblematic_scenarios": 16,
+    "persistence_recovery_scenarios": 10,
+    "claim_evidence_entries": 20
+  },
+  "boundaries": {
+    "private_source_distributed": false,
+    "public_license_selected": false,
+    "external_actions_authorized": false,
+    "showcase_integrity_independently_verifiable": true,
+    "private_runtime_independently_reproducible_from_showcase": false
+  }
+}
